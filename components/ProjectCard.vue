@@ -21,7 +21,7 @@ defineProps<{
   >
     <template #header v-if="title"> {{ title }} </template>
 
-    <div><NuxtImg v-if="src" :src="src" class="rounded-lg" /></div>
+    <div><img v-if="src" :src="src" class="rounded-lg" /></div>
 
     <template #footer> <slot name="footer"></slot> </template>
   </UCard>

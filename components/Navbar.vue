@@ -33,7 +33,7 @@ onBeforeMount(() => {
     :class="atTopOfPage ? '' : 'shadow-2xl border-b dark:border-slate-500'"
   >
     <div class="w-1/2 md:w-1/5 md:ms-10">
-      <ULink to="/"><NuxtImg src="/logo.svg" /></ULink>
+      <ULink to="/"><img src="/logo.svg" /></ULink>
     </div>
     <div class="flex justify-end items-center text-base">
       <ULink
