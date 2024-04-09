@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     families: {
       "Josefin+Sans": true,
       Lato: [100, 300],
-      "Crimson Pro": {
+      "Crymson Pro": {
         wght: "199..900",
         ital: "199..700",
       },
